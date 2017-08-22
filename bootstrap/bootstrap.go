@@ -101,7 +101,15 @@ func bootstrapReadmeMd() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/README.md", size: 610, mode: os.FileMode(420), modTime: time.Unix(1502322331, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/README.md", size: 610, mode: os.FileMode(436), modTime: time.Unix(1501967388, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/README.md", size: 610, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -121,7 +129,15 @@ func bootstrapAmazon_k8s_centos_7_masterSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/amazon_k8s_centos_7_master.sh", size: 2456, mode: os.FileMode(420), modTime: time.Unix(1505056408, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/amazon_k8s_centos_7_master.sh", size: 2307, mode: os.FileMode(436), modTime: time.Unix(1502818123, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/amazon_k8s_centos_7_master.sh", size: 2307, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -141,7 +157,15 @@ func bootstrapAmazon_k8s_centos_7_nodeSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/amazon_k8s_centos_7_node.sh", size: 1917, mode: os.FileMode(420), modTime: time.Unix(1505056408, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/amazon_k8s_centos_7_node.sh", size: 1774, mode: os.FileMode(436), modTime: time.Unix(1502818123, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/amazon_k8s_centos_7_node.sh", size: 1774, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -161,7 +185,15 @@ func bootstrapAmazon_k8s_ubuntu_1604_masterSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/amazon_k8s_ubuntu_16.04_master.sh", size: 1811, mode: os.FileMode(420), modTime: time.Unix(1505054052, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/amazon_k8s_ubuntu_16.04_master.sh", size: 1779, mode: os.FileMode(436), modTime: time.Unix(1502293337, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/amazon_k8s_ubuntu_16.04_master.sh", size: 1779, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -181,7 +213,15 @@ func bootstrapAmazon_k8s_ubuntu_1604_nodeSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/amazon_k8s_ubuntu_16.04_node.sh", size: 1239, mode: os.FileMode(420), modTime: time.Unix(1505054052, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/amazon_k8s_ubuntu_16.04_node.sh", size: 1194, mode: os.FileMode(436), modTime: time.Unix(1502272644, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/amazon_k8s_ubuntu_16.04_node.sh", size: 1194, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -221,7 +261,15 @@ func bootstrapDigitalocean_k8s_centos_7_masterSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_centos_7_master.sh", size: 2275, mode: os.FileMode(420), modTime: time.Unix(1505275252, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_centos_7_master.sh", size: 2120, mode: os.FileMode(436), modTime: time.Unix(1502639666, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_centos_7_master.sh", size: 2120, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -241,7 +289,15 @@ func bootstrapDigitalocean_k8s_centos_7_nodeSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_centos_7_node.sh", size: 1769, mode: os.FileMode(420), modTime: time.Unix(1505275252, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_centos_7_node.sh", size: 1620, mode: os.FileMode(436), modTime: time.Unix(1502639666, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_centos_7_node.sh", size: 1620, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -261,7 +317,15 @@ func bootstrapDigitalocean_k8s_ubuntu_1604_masterSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_ubuntu_16.04_master.sh", size: 1760, mode: os.FileMode(420), modTime: time.Unix(1505275243, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_ubuntu_16.04_master.sh", size: 1857, mode: os.FileMode(436), modTime: time.Unix(1502314777, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_ubuntu_16.04_master.sh", size: 1857, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -281,7 +345,15 @@ func bootstrapDigitalocean_k8s_ubuntu_1604_nodeSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_ubuntu_16.04_node.sh", size: 1290, mode: os.FileMode(420), modTime: time.Unix(1505275243, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_ubuntu_16.04_node.sh", size: 1247, mode: os.FileMode(436), modTime: time.Unix(1502314777, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/digitalocean_k8s_ubuntu_16.04_node.sh", size: 1247, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -301,7 +373,15 @@ func bootstrapGoogle_compute_k8s_ubuntu_1604_masterSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/google_compute_k8s_ubuntu_16.04_master.sh", size: 1946, mode: os.FileMode(420), modTime: time.Unix(1502937679, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/google_compute_k8s_ubuntu_16.04_master.sh", size: 1946, mode: os.FileMode(436), modTime: time.Unix(1502993251, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/google_compute_k8s_ubuntu_16.04_master.sh", size: 1946, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -321,7 +401,15 @@ func bootstrapGoogle_compute_k8s_ubuntu_1604_nodeSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/google_compute_k8s_ubuntu_16.04_node.sh", size: 1246, mode: os.FileMode(420), modTime: time.Unix(1502937679, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/google_compute_k8s_ubuntu_16.04_node.sh", size: 1246, mode: os.FileMode(436), modTime: time.Unix(1502993251, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/google_compute_k8s_ubuntu_16.04_node.sh", size: 1246, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -341,7 +429,15 @@ func bootstrapInjectGo() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/inject.go", size: 840, mode: os.FileMode(420), modTime: time.Unix(1502322331, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/inject.go", size: 840, mode: os.FileMode(436), modTime: time.Unix(1501967388, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/inject.go", size: 840, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -361,7 +457,15 @@ func bootstrapVpnMeshbirdmasterSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/vpn/meshbirdMaster.sh", size: 244, mode: os.FileMode(420), modTime: time.Unix(1502322331, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/vpn/meshbirdMaster.sh", size: 244, mode: os.FileMode(436), modTime: time.Unix(1502293337, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/vpn/meshbirdMaster.sh", size: 244, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -381,7 +485,15 @@ func bootstrapVpnMeshbirdnodeSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/vpn/meshbirdNode.sh", size: 796, mode: os.FileMode(420), modTime: time.Unix(1502322331, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/vpn/meshbirdNode.sh", size: 796, mode: os.FileMode(436), modTime: time.Unix(1502293337, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/vpn/meshbirdNode.sh", size: 796, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -401,7 +513,15 @@ func bootstrapVpnOpenvpnmasterCentosSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/vpn/openvpnMaster-centos.sh", size: 4796, mode: os.FileMode(420), modTime: time.Unix(1505275252, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/vpn/openvpnMaster-centos.sh", size: 4873, mode: os.FileMode(436), modTime: time.Unix(1502639666, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/vpn/openvpnMaster-centos.sh", size: 4873, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -421,7 +541,15 @@ func bootstrapVpnOpenvpnmasterSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/vpn/openvpnMaster.sh", size: 4888, mode: os.FileMode(420), modTime: time.Unix(1505275243, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/vpn/openvpnMaster.sh", size: 4970, mode: os.FileMode(436), modTime: time.Unix(1502314777, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/vpn/openvpnMaster.sh", size: 4970, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -441,7 +569,15 @@ func bootstrapVpnOpenvpnnodeCentosSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/vpn/openvpnNode-centos.sh", size: 958, mode: os.FileMode(420), modTime: time.Unix(1505275252, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/vpn/openvpnNode-centos.sh", size: 963, mode: os.FileMode(436), modTime: time.Unix(1502639666, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/vpn/openvpnNode-centos.sh", size: 963, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -461,7 +597,15 @@ func bootstrapVpnOpenvpnnodeSh() (*asset, error) {
 		return nil, err
 	}
 
+<<<<<<< HEAD
 	info := bindataFileInfo{name: "bootstrap/vpn/openvpnNode.sh", size: 951, mode: os.FileMode(420), modTime: time.Unix(1505275243, 0)}
+=======
+<<<<<<< HEAD
+	info := bindataFileInfo{name: "bootstrap/vpn/openvpnNode.sh", size: 952, mode: os.FileMode(436), modTime: time.Unix(1502314777, 0)}
+=======
+	info := bindataFileInfo{name: "bootstrap/vpn/openvpnNode.sh", size: 952, mode: os.FileMode(420), modTime: time.Unix(1503343145, 0)}
+>>>>>>> Working vnets
+>>>>>>> Working vnets
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -518,6 +662,7 @@ func AssetNames() []string {
 
 // _bindata is a table, holding each asset generator, mapped to its name.
 var _bindata = map[string]func() (*asset, error){
+<<<<<<< HEAD
 	"bootstrap/README.md":                                 bootstrapReadmeMd,
 	"bootstrap/amazon_k8s_centos_7_master.sh":             bootstrapAmazon_k8s_centos_7_masterSh,
 	"bootstrap/amazon_k8s_centos_7_node.sh":               bootstrapAmazon_k8s_centos_7_nodeSh,
@@ -537,6 +682,26 @@ var _bindata = map[string]func() (*asset, error){
 	"bootstrap/vpn/openvpnMaster.sh":                      bootstrapVpnOpenvpnmasterSh,
 	"bootstrap/vpn/openvpnNode-centos.sh":                 bootstrapVpnOpenvpnnodeCentosSh,
 	"bootstrap/vpn/openvpnNode.sh":                        bootstrapVpnOpenvpnnodeSh,
+=======
+	"bootstrap/README.md": bootstrapReadmeMd,
+	"bootstrap/amazon_k8s_centos_7_master.sh": bootstrapAmazon_k8s_centos_7_masterSh,
+	"bootstrap/amazon_k8s_centos_7_node.sh": bootstrapAmazon_k8s_centos_7_nodeSh,
+	"bootstrap/amazon_k8s_ubuntu_16.04_master.sh": bootstrapAmazon_k8s_ubuntu_1604_masterSh,
+	"bootstrap/amazon_k8s_ubuntu_16.04_node.sh": bootstrapAmazon_k8s_ubuntu_1604_nodeSh,
+	"bootstrap/digitalocean_k8s_centos_7_master.sh": bootstrapDigitalocean_k8s_centos_7_masterSh,
+	"bootstrap/digitalocean_k8s_centos_7_node.sh": bootstrapDigitalocean_k8s_centos_7_nodeSh,
+	"bootstrap/digitalocean_k8s_ubuntu_16.04_master.sh": bootstrapDigitalocean_k8s_ubuntu_1604_masterSh,
+	"bootstrap/digitalocean_k8s_ubuntu_16.04_node.sh": bootstrapDigitalocean_k8s_ubuntu_1604_nodeSh,
+	"bootstrap/google_compute_k8s_ubuntu_16.04_master.sh": bootstrapGoogle_compute_k8s_ubuntu_1604_masterSh,
+	"bootstrap/google_compute_k8s_ubuntu_16.04_node.sh": bootstrapGoogle_compute_k8s_ubuntu_1604_nodeSh,
+	"bootstrap/inject.go": bootstrapInjectGo,
+	"bootstrap/vpn/meshbirdMaster.sh": bootstrapVpnMeshbirdmasterSh,
+	"bootstrap/vpn/meshbirdNode.sh": bootstrapVpnMeshbirdnodeSh,
+	"bootstrap/vpn/openvpnMaster-centos.sh": bootstrapVpnOpenvpnmasterCentosSh,
+	"bootstrap/vpn/openvpnMaster.sh": bootstrapVpnOpenvpnmasterSh,
+	"bootstrap/vpn/openvpnNode-centos.sh": bootstrapVpnOpenvpnnodeCentosSh,
+	"bootstrap/vpn/openvpnNode.sh": bootstrapVpnOpenvpnnodeSh,
+>>>>>>> Working vnets
 }
 
 // AssetDir returns the file names below a certain
@@ -578,6 +743,7 @@ type bintree struct {
 	Func     func() (*asset, error)
 	Children map[string]*bintree
 }
+<<<<<<< HEAD
 
 var _bintree = &bintree{nil, map[string]*bintree{
 	"bootstrap": &bintree{nil, map[string]*bintree{
@@ -601,6 +767,29 @@ var _bintree = &bintree{nil, map[string]*bintree{
 			"openvpnMaster.sh":        &bintree{bootstrapVpnOpenvpnmasterSh, map[string]*bintree{}},
 			"openvpnNode-centos.sh":   &bintree{bootstrapVpnOpenvpnnodeCentosSh, map[string]*bintree{}},
 			"openvpnNode.sh":          &bintree{bootstrapVpnOpenvpnnodeSh, map[string]*bintree{}},
+=======
+var _bintree = &bintree{nil, map[string]*bintree{
+	"bootstrap": &bintree{nil, map[string]*bintree{
+		"README.md": &bintree{bootstrapReadmeMd, map[string]*bintree{}},
+		"amazon_k8s_centos_7_master.sh": &bintree{bootstrapAmazon_k8s_centos_7_masterSh, map[string]*bintree{}},
+		"amazon_k8s_centos_7_node.sh": &bintree{bootstrapAmazon_k8s_centos_7_nodeSh, map[string]*bintree{}},
+		"amazon_k8s_ubuntu_16.04_master.sh": &bintree{bootstrapAmazon_k8s_ubuntu_1604_masterSh, map[string]*bintree{}},
+		"amazon_k8s_ubuntu_16.04_node.sh": &bintree{bootstrapAmazon_k8s_ubuntu_1604_nodeSh, map[string]*bintree{}},
+		"digitalocean_k8s_centos_7_master.sh": &bintree{bootstrapDigitalocean_k8s_centos_7_masterSh, map[string]*bintree{}},
+		"digitalocean_k8s_centos_7_node.sh": &bintree{bootstrapDigitalocean_k8s_centos_7_nodeSh, map[string]*bintree{}},
+		"digitalocean_k8s_ubuntu_16.04_master.sh": &bintree{bootstrapDigitalocean_k8s_ubuntu_1604_masterSh, map[string]*bintree{}},
+		"digitalocean_k8s_ubuntu_16.04_node.sh": &bintree{bootstrapDigitalocean_k8s_ubuntu_1604_nodeSh, map[string]*bintree{}},
+		"google_compute_k8s_ubuntu_16.04_master.sh": &bintree{bootstrapGoogle_compute_k8s_ubuntu_1604_masterSh, map[string]*bintree{}},
+		"google_compute_k8s_ubuntu_16.04_node.sh": &bintree{bootstrapGoogle_compute_k8s_ubuntu_1604_nodeSh, map[string]*bintree{}},
+		"inject.go": &bintree{bootstrapInjectGo, map[string]*bintree{}},
+		"vpn": &bintree{nil, map[string]*bintree{
+			"meshbirdMaster.sh": &bintree{bootstrapVpnMeshbirdmasterSh, map[string]*bintree{}},
+			"meshbirdNode.sh": &bintree{bootstrapVpnMeshbirdnodeSh, map[string]*bintree{}},
+			"openvpnMaster-centos.sh": &bintree{bootstrapVpnOpenvpnmasterCentosSh, map[string]*bintree{}},
+			"openvpnMaster.sh": &bintree{bootstrapVpnOpenvpnmasterSh, map[string]*bintree{}},
+			"openvpnNode-centos.sh": &bintree{bootstrapVpnOpenvpnnodeCentosSh, map[string]*bintree{}},
+			"openvpnNode.sh": &bintree{bootstrapVpnOpenvpnnodeSh, map[string]*bintree{}},
+>>>>>>> Working vnets
 		}},
 	}},
 }}
@@ -651,3 +840,7 @@ func _filePath(dir, name string) string {
 	cannonicalName := strings.Replace(name, "\\", "/", -1)
 	return filepath.Join(append([]string{dir}, strings.Split(cannonicalName, "/")...)...)
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Working vnets
