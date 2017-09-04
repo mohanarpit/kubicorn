@@ -167,6 +167,7 @@ func (r *Droplet) Apply(actual, expected cloud.Resource, immutable *cluster.Clus
 			logger.Info("Setting up VPN on Droplets... this could take a little bit longer...")
 			pubPath := local.Expand(immutable.SSH.PublicKeyPath)
 			privPath := strings.Replace(pubPath, ".pub", "", 1)
+			immutable.Network.VPN.Test()
 			scp := scp.NewSecureCopier(immutable.SSH.User, masterIPPublic, "22", privPath)
 			masterVpnIP, err := scp.ReadBytes("/tmp/.ip")
 			if err != nil {

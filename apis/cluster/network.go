@@ -16,6 +16,7 @@ package cluster
 
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	"github.com/kris-nova/kubicorn/vpn"
 )
 
 const (
@@ -31,4 +32,5 @@ type Network struct {
 	Identifier        string      `json:"identifier,omitempty"`
 	Type              string      `json:"type,omitempty"`
 	InternetGW        *InternetGW `json:"internetgw,omitempty"`
+	VPN vpn.VPN `json:"vpn,omitempty"`
 }

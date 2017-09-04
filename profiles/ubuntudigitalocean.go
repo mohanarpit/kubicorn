@@ -19,6 +19,7 @@ import (
 
 	"github.com/kris-nova/kubicorn/apis/cluster"
 	"github.com/kris-nova/kubicorn/cutil/kubeadm"
+	dovpn "github.com/kris-nova/kubicorn/vpn/digitalocean"
 )
 
 // NewUbuntuDigitalOceanCluster creates a basic Digitalocean cluster profile, to bootstrap Kubernetes.
@@ -30,6 +31,9 @@ func NewUbuntuDigitalOceanCluster(name string) *cluster.Cluster {
 		SSH: &cluster.SSH{
 			PublicKeyPath: "~/.ssh/id_rsa.pub",
 			User:          "root",
+		},
+		Network: &cluster.Network{
+			VPN: dovpn.NewOpenVPN(),
 		},
 		KubernetesAPI: &cluster.KubernetesAPI{
 			Port: "443",

@@ -32,3 +32,8 @@ func BuildBootstrapScript(bootstrapScripts []string) ([]byte, error) {
 
 	return userData, nil
 }
+
+
+func BuildBootstrapScriptWithVPN(bootstrapScripts []string) ([]byte, error) {
+	return nil, nil
+}
