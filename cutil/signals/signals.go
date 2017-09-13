@@ -54,7 +54,7 @@ type Handler struct {
 }
 
 // NewSignalHandler creates a new Handler using given properties.
-func NewSignalHandler(timeoutSeconds int) *Handler {
+func NewSignalHandler(timeoutSeconds int, exitOnTimeout bool) *Handler {
 	signals := make(chan os.Signal)
 	signal.Notify(signals, os.Interrupt, os.Kill)
 	return &Handler{
@@ -90,6 +90,7 @@ func (h *Handler) Register() {
 						continue
 					}
 					h.signalReceived = signalTerminate
+					logger.Critical("Termination received. Force closing kubicorn!")
 					debug.PrintStack()
 					os.Exit(130)
 					break
@@ -98,6 +99,7 @@ func (h *Handler) Register() {
 					break
 				case s == syscall.SIGTERM:
 					h.signalReceived = signalTerminate
+					logger.Critical("Termination received. Force closing kubicorn!")
 					os.Exit(3)
 					break
 				}
