@@ -45,7 +45,7 @@ func CreateCmd() *cobra.Command {
 		Use:   "create [NAME] [-p|--profile PROFILENAME] [-c|--cloudid CLOUDID]",
 		Short: "Create a Kubicorn API model from a profile",
 		Long: `Use this command to create a Kubicorn API model in a defined state store.
-	
+
 	This command will create a cluster API model as a YAML manifest in a state store.
 	Once the API model has been created, a user can optionally change the model to their liking.
 	After a model is defined and configured properly, the user can then apply the model.`,
@@ -137,6 +137,10 @@ var profileMapIndexed = map[string]profileMap{
 	"aws-centos": {
 		profileFunc: profiles.NewCentosAmazonCluster,
 		description: "CentOS on Amazon",
+	},
+	"aws-debian": {
+		profileFunc: profiles.NewDebianAmazonCluster,
+		description: "Debian on Amazon",
 	},
 }
 
